@@ -11,11 +11,7 @@ public class Main implements Directions {
         new JerooGUI();
         runJerooCode();
   Jeroo a = new Jeroo(5, 5, SOUTH, 100);
-  a.turn(LEFT);
-  a.turn(LEFT);
-  a.hop();
-  a.turn(LEFT);
-  a.turn(LEFT);
+  a.moveBackward();
     }
 
     /**
